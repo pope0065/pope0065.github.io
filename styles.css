@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+/* nav */
+
+.navbar-item{
+    font-size: 30px;
+    line-height: 2;
+    padding:1rem;
+}
+
+
+/* my photo*/
+
+.myphoto{
+    height:300px;
+    width:300px;
+    border-radius: 100%;
+}
+
+/* list */
+
+ul{
+    list-style-type: none;
+}
