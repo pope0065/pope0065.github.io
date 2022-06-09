@@ -1,3 +1,7 @@
+
+
+/* HTML TAGS */
+
 body{
     font-size: 18px;
 }
@@ -6,7 +10,11 @@ header, footer{
     background-color: red;
 }
 
+/* CLASSES */
 
+.site-title{
+    color:white;
+}
 
 /* nav */
 
@@ -19,8 +27,8 @@ header, footer{
 
 /* my photo*/
 
-.myphoto{
+.my-image{
     height:300px;
     width:300px;
-    border-radius: 100%;
+    box-shadow: 0 0 2px 1px black;
 }
