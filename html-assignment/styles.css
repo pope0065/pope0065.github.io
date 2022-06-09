@@ -10,6 +10,14 @@ header, footer{
     background-color: red;
 }
 
+ul.hobbies{
+    list-style-type:square;
+}
+
+li:nth-child(odd){
+    background-color: orange;
+}
+
 /* CLASSES */
 
 .site-title{
