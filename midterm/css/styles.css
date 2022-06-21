@@ -1,0 +1,26 @@
+body{
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+.wrapper{
+    margin:auto;
+    width: 750px;
+}
+
+.header-image{
+    width:750px;
+    height: 300px;
+}
+
+#title-heading{
+    color:white;
+    position:absolute;
+    margin: auto;
+    top:175px;
+    left:255px;
+    font-size: 40px;
