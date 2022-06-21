@@ -26,8 +26,8 @@ header{
     position:absolute;
     margin: auto;
     top:175px;
-    left:255px;
-    font-size: 40px;
+    left:240px;
+    font-size: 50px;
 }
 
 /* STYLING THE NAVBAR */
@@ -39,22 +39,51 @@ nav{
 
 li{
     display: inline-block;
+    height: 30px;
 }
 
 a{
     text-decoration: none;
     color:black;
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
-    padding: 30px;
+    margin-top:0;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
 .vl {
     border-left: 1px solid black;
-    height: 60px;
+    height: 40px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
+/* Story Section */
 
+#story{
+    margin-top:30px;
+    font-size: 30px;
+    padding: 10px;
+}
 
+/* STARFISH IMG */
+
+.story-heading{
+    margin-bottom: 10px;
+}
+
+.starfish-img{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    float:left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.story-text{
+    font-size:16px;
+    word-spacing: 1.5;
+    line-height: 1.5;
+}
