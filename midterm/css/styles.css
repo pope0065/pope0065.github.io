@@ -37,12 +37,12 @@ nav{
     position: relative;
 }
 
-li{
+nav ul li{
     display: inline-block;
     height: 30px;
 }
 
-a{
+nav ul li a{
     text-decoration: none;
     color:black;
     font-size: 20px;
@@ -74,8 +74,8 @@ a{
 }
 
 .starfish-img{
-    height: 350px;
-    width: 350px;
+    height: 325px;
+    width: 325px;
     position: relative;
     float:left;
     padding-right: 20px;
@@ -83,7 +83,69 @@ a{
 }
 
 .story-text{
-    font-size:16px;
-    word-spacing: 1.5;
-    line-height: 1.5;
+    font-size:14px;
+    word-spacing: 1.7;
+    line-height: 1.7;
+}
+
+/* FACTS */
+
+.facts{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.section-heading{
+    font-size:25px;
+}
+
+.facts ul{
+    list-style-type: disc;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.facts ul li{
+    margin-left: 15px;
+}
+
+/* FEEDBACK */
+
+#feedback{
+    width: 97%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.feedback-label{
+    font-size: 13px;
+}
+
+#yname, #email, #your-message{
+    width: 98%;
+}
+
+#your-message{
+    height: 80px;
+}
+
+.form-heading{
+    margin:10px 0;
+    font-size:19px;
+}
+
+.choice{
+    margin-bottom: 7px;
+}
+
+.radio-label{
+    font-size:13px;
+}
+
+.submit-btn{
+    background-color:#b7e2dd;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid black;
 }
