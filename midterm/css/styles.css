@@ -5,12 +5,16 @@ body{
 
 header{
     position: relative;
+    margin-bottom: 0;
 }
 
 .wrapper{
     margin:auto;
     width: 750px;
+    background-color:#b7e2dd;
 }
+
+/* STYLING THE HEADING */
 
 .header-image{
     width:750px;
@@ -24,3 +28,29 @@ header{
     top:175px;
     left:255px;
     font-size: 40px;
+}
+
+/* STYLING THE NAVBAR */
+
+nav{
+    height: 60px;
+    position: relative;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    font-size: 30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+
