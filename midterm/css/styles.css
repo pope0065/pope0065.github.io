@@ -12,6 +12,7 @@ header{
     margin:auto;
     width: 750px;
     background-color:#b7e2dd;
+    margin-bottom: 20px;
 }
 
 /* STYLING THE HEADING */
@@ -111,8 +112,12 @@ nav ul li a{
 
 /* FEEDBACK */
 
+#contact{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #feedback{
-    width: 97%;
     border: 1px solid black;
     padding: 10px;
     margin-top: 10px;
@@ -122,12 +127,8 @@ nav ul li a{
     font-size: 13px;
 }
 
-#yname, #email, #your-message{
-    width: 98%;
-}
-
-#your-message{
-    height: 80px;
+#yname, #email {
+    width: 97.5%;
 }
 
 .form-heading{
@@ -148,4 +149,15 @@ nav ul li a{
     padding: 10px;
     font-size: 10px;
     border: 1px solid black;
+}
+
+textarea{
+    resize:none;
+}
+
+/* FOOTER */
+
+.footer{
+    padding:30px;
+    text-align: right;
 }
