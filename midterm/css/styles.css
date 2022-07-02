@@ -151,7 +151,7 @@ nav ul li a{
     border: 1px solid black;
 }
 
-textarea{
+.message-textarea{
     resize:none;
 }
 
@@ -160,4 +160,5 @@ textarea{
 .footer{
     padding:30px;
     text-align: right;
+    font-size: x-small;
 }
